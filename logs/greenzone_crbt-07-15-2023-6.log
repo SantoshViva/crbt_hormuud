@@ -1,0 +1,24 @@
+2023-07-15T16:11:54.808-0400 [main] INFO  o.s.t.c.s.AbstractContextLoader      Could not detect default resource locations for test class [com.santosh.greenzone.wapchatezee.WapChatezeeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-07-15T16:11:54.817-0400 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.santosh.greenzone.wapchatezee.WapChatezeeApplicationTests]: WapChatezeeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-15T16:11:55.595-0400 [main] INFO  c.s.g.w.WapChatezeeApplicationTests  Starting WapChatezeeApplicationTests on Home with PID 4256 (started by santosh in E:\STS\sts-4.6.0.RELEASE\workspace-spring-tool-suite-4-4.6.0.RELEASE\greenzone_crbt_muni)
+2023-07-15T16:11:55.596-0400 [main] INFO  c.s.g.w.WapChatezeeApplicationTests  No active profile set, falling back to default profiles: default
+2023-07-15T16:11:57.196-0400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-07-15T16:11:57.241-0400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2023-07-15T16:11:58.102-0400 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$539368f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15T16:11:58.514-0400 [main] INFO  c.z.h.HikariDataSource               HikariPool-1 - Starting...
+2023-07-15T16:11:58.518-0400 [main] WARN  c.z.h.u.DriverDataSource             Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-07-15T16:11:59.213-0400 [main] INFO  c.z.h.HikariDataSource               HikariPool-1 - Start completed.
+2023-07-15T16:11:59.311-0400 [main] INFO  o.h.j.i.u.LogHelper                  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-07-15T16:11:59.496-0400 [main] INFO  o.h.Version                          HHH000412: Hibernate Core {5.3.7.Final}
+2023-07-15T16:11:59.499-0400 [main] INFO  o.h.c.Environment                    HHH000206: hibernate.properties not found
+2023-07-15T16:11:59.837-0400 [main] INFO  o.h.a.c.Version                      HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-07-15T16:12:00.099-0400 [main] INFO  o.h.d.Dialect                        HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-07-15T16:12:00.444-0400 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T16:12:01.639-0400 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor       Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15T16:12:02.346-0400 [main] INFO  c.s.g.w.WapChatezeeApplicationTests  Started WapChatezeeApplicationTests in 7.164 seconds (JVM running for 9.426)
+2023-07-15T16:12:02.767-0400 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor       Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15T16:12:02.768-0400 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T16:12:02.772-0400 [Thread-2] INFO  c.z.h.HikariDataSource               HikariPool-1 - Shutdown initiated...
+2023-07-15T16:12:02.793-0400 [Thread-2] INFO  c.z.h.HikariDataSource               HikariPool-1 - Shutdown completed.

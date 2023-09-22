@@ -1,0 +1,42 @@
+2023-07-15T18:17:59.345-0400 [main] INFO  c.s.g.w.WapChatezeeApplication       Starting WapChatezeeApplication on Home with PID 7404 (E:\STS\sts-4.6.0.RELEASE\workspace-spring-tool-suite-4-4.6.0.RELEASE\greenzone_crbt_muni\target\classes started by santosh in E:\STS\sts-4.6.0.RELEASE\workspace-spring-tool-suite-4-4.6.0.RELEASE\greenzone_crbt_muni)
+2023-07-15T18:17:59.350-0400 [main] INFO  c.s.g.w.WapChatezeeApplication       No active profile set, falling back to default profiles: default
+2023-07-15T18:17:59.901-0400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-07-15T18:17:59.922-0400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2023-07-15T18:18:00.170-0400 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$433f2f1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-15T18:18:00.533-0400 [main] INFO  o.a.c.h.Http11NioProtocol            Initializing ProtocolHandler ["http-nio-9077"]
+2023-07-15T18:18:00.541-0400 [main] INFO  o.a.c.c.StandardService              Starting service [Tomcat]
+2023-07-15T18:18:00.541-0400 [main] INFO  o.a.c.c.StandardEngine               Starting Servlet engine: [Apache Tomcat/9.0.16]
+2023-07-15T18:18:00.547-0400 [main] INFO  o.a.c.c.AprLifecycleListener         The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_74\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_74/bin/server;C:/Program Files/Java/jre1.8.0_74/bin;C:/Program Files/Java/jre1.8.0_74/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\cygwin64\bin\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;E:\VisualStudioCode\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\santosh\AppData\Roaming\npm;C:\Users\santosh\AppData\Local\atom\bin;C:\cygwin64\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;E:\STS\sts-4.6.0.RELEASE;;.]
+2023-07-15T18:18:00.635-0400 [main] INFO  o.a.c.c.C.[.[.[/]                    Initializing Spring embedded WebApplicationContext
+2023-07-15T18:18:00.635-0400 [main] INFO  o.s.w.c.ContextLoader                Root WebApplicationContext: initialization completed in 1253 ms
+2023-07-15T18:18:00.767-0400 [main] INFO  c.z.h.HikariDataSource               HikariPool-1 - Starting...
+2023-07-15T18:18:00.768-0400 [main] WARN  c.z.h.u.DriverDataSource             Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-07-15T18:18:01.135-0400 [main] INFO  c.z.h.HikariDataSource               HikariPool-1 - Start completed.
+2023-07-15T18:18:01.176-0400 [main] INFO  o.h.j.i.u.LogHelper                  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-07-15T18:18:01.221-0400 [main] INFO  o.h.Version                          HHH000412: Hibernate Core {5.3.7.Final}
+2023-07-15T18:18:01.222-0400 [main] INFO  o.h.c.Environment                    HHH000206: hibernate.properties not found
+2023-07-15T18:18:01.339-0400 [main] INFO  o.h.a.c.Version                      HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-07-15T18:18:01.474-0400 [main] INFO  o.h.d.Dialect                        HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-07-15T18:18:01.662-0400 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T18:18:01.897-0400 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor       Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-15T18:18:02.063-0400 [main] INFO  o.a.c.h.Http11NioProtocol            Starting ProtocolHandler ["http-nio-9077"]
+2023-07-15T18:18:02.085-0400 [main] INFO  c.s.g.w.WapChatezeeApplication       Started WapChatezeeApplication in 3.45 seconds (JVM running for 4.792)
+2023-07-15T18:18:25.666-0400 [http-nio-9077-exec-1] INFO  o.a.c.c.C.[.[.[/]                    Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-15T18:18:25.667-0400 [http-nio-9077-exec-1] INFO  o.s.w.s.DispatcherServlet            Initializing Servlet 'dispatcherServlet'
+2023-07-15T18:18:25.674-0400 [http-nio-9077-exec-1] INFO  o.s.w.s.DispatcherServlet            Completed initialization in 7 ms
+2023-07-15T18:18:25.763-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      starToCopyAsynHandler|aparty=9810594999|bparty=810594996|serviceId=crbt|productId=DAILY_RBT|toneId=|callStartTime=2023-2-8 23:41:47|callEndTime=2023-2-8 23:41:53|digits=*|apartyRbtFlag=|status=null|toneServiceId=null|toneProductId=null|isToneCharge=null
+2023-07-15T18:18:25.763-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      starToCopyAsynHandler|aparty=810594999|modify aparty=810594999|bpartyLength=9
+2023-07-15T18:18:25.764-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      final SQL Query=select tone_id from CRBT_SUBS_TONE_PROV_INFO where subscriber_id='810594996' and tone_type='0' limit 1;
+2023-07-15T18:18:25.772-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      starToCopyAsynHandler|aparty=810594999|bparty=810594996|bparty dbToneId=111111111111
+2023-07-15T18:18:25.772-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      selectQuery=select count(1) from CRBT_ASYNC_START_TO_COPY_INFO where aparty='810594999' and status='A';
+2023-07-15T18:18:25.774-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      Allow this request|aparty=810594999|baparty=810594996|toneId=111111111111|currentCount=0
+2023-07-15T18:18:25.774-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      Allow this start to copy|aparty=810594999|bparty=810594996
+2023-07-15T18:18:25.775-0400 [http-nio-9077-exec-1] ERROR c.s.g.w.c.StarToCopyAsynHandler      No Record Found in SQL|aparty=810594999 is not RBT subscriber|defaultTone=01011062100560
+2023-07-15T18:18:25.775-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      final SQL Query=insert into CRBT_ASYNC_START_TO_COPY_INFO (aparty,bparty,tone_id,digits,start_time,end_time,star_to_copy,aparty_rbt_flag,status,service_id,product_id,tone_service_id,tone_product_id,is_tone_charge) values ('810594999','810594996','111111111111','*',STR_TO_DATE('2023-2-8 23:41:47','%Y-%m-%d %H:%i:%s'),STR_TO_DATE('2023-2-8 23:41:53','%Y-%m-%d %H:%i:%s'),'N','N','A','crbt','DAILY_RBT','A','A','N');
+2023-07-15T18:18:25.898-0400 [http-nio-9077-exec-1] INFO  c.s.g.w.c.StarToCopyAsynHandler      Successfully to insert into SQL48_ASYNC_TONE_PLAYER_DTMF |resultChangesRow=1
+2023-07-15T18:22:40.631-0400 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor       Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-15T18:22:40.632-0400 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T18:22:40.634-0400 [RMI TCP Connection(16)-127.0.0.1] INFO  c.z.h.HikariDataSource               HikariPool-1 - Shutdown initiated...
+2023-07-15T18:22:40.641-0400 [RMI TCP Connection(16)-127.0.0.1] INFO  c.z.h.HikariDataSource               HikariPool-1 - Shutdown completed.

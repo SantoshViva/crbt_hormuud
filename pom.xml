@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.3.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.santosh.greenzone</groupId>
+	<artifactId>greenzone-tp_muni</artifactId>
+	<!-- 1.0.43: Added SDP toneChange support -->
+	<!-- 1.0.44: Added Balance Query support -->
+	<!-- 1.0.45: Added Event Base Charging  -->
+	<!-- 1.0.46: Handle SMS Service -->
+	<!-- 1.0.25: Handle Name Tune Service -->
+	<!-- 1.0.26: Handle Special Caller 22-Dec-2022 -->
+	<!-- 1.0.27: Handle Album Api for IVR & tonePlayer 11-Jan-2023 -->
+	<!-- 1.0.28: Added USSD API for album and name tune 29-Jan-2023 -->
+	<!-- 1.0.29: Added Player Tune for album and name tune 09-Feb-2023 -->
+	<!-- 1.0.30: Added Player Time interval 04-Mar-2023 -->
+	<!-- 1.0.31: Added Aparty RBT check in TonePlayer Case|Check length in NameTune 15-Mar-2023 -->
+	<!-- 1.0.32: Special Caller is highest priority and it should be configuration 29-Mar-2023 -->
+	<!-- 1.0.33: Handle start2Copy without toneId 24-April-2023 -->
+	<!-- 1.0.34: Handle start2Copy istonecharge 08-May-2023 -->
+	<!-- 1.0.35: Send aparty ToneId in the Respose 17-June-2023 -->
+	<!-- 1.0.36: Handle startToCopy Asyn Flow 11-July-2023 -->
+	<version>1.0.36-SNAPSHOT</version>
+	<name>greenzone-tp_muni</name>
+	<packaging>jar</packaging>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		
+		<!-- exclude default logging logback using exclusion tag, add log4j2 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+		<!-- include log4j2 dependency here  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+        
+		
+		
+		
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.10.2</version>
+		</dependency>
+		<!-- JSON -->
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20190722</version>
+		</dependency>
+		
+
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+		<!-- <dependency> 
+		     <groupId>com.fasterxml.jackson.dataformat</groupId> 
+		     <artifactId>jackson-dataformat-xml</artifactId> 
+			 <version>2.11.1</version> 
+			</dependency> 
+			https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind 
+			<dependency> 
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId> 
+			<version>2.9.4</version> </dependency> -->
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Santosh Panday
+Build-Jdk: 11.0.1
+Implementation-Title: wap-chatezee
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.u2opia.chatezee
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/wap-chatezee
+Created-By: Maven Integration for Eclipse
+
